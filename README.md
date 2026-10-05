@@ -1,5 +1,11 @@
 # 双休GO 静态存档（shuangxiu-go-archive）
 
+> **项目定位：本仓库是第三方网站「双休GO」(https://shuangxiu-go.cn/) 的全量静态存档备份**，与账号下另外两个双休购相关仓库是不同的项目，请勿混淆：
+>
+> - **本仓库（shuangxiu-go-archive）**：仅存第三方「双休GO」站点的静态快照（578 家企业 + 58 城市页），**不包含主站数据，也不是主站的数据源**；
+> - **shuangxiugou**（[主站](https://github.com/dujeongil-galaxy/shuangxiugou)）：「双休购」众包测评 + 评级卡片的线上应用；
+> - **shuangxiugou-guide**（[指南](https://github.com/dujeongil-galaxy/shuangxiugou-guide)）：独立的「双休购 2.0」公开资料与消费决策工具站。
+
 本仓库是第三方站点 **[双休GO](https://shuangxiu-go.cn/)** 的静态存档备份，抓取于 **2026-10-05**，部署于 GitHub Pages。
 
 ## 说明
