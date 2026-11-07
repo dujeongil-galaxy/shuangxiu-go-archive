@@ -32,3 +32,15 @@
 线上地址：https://dujeongil-galaxy.github.io/shuangxiu-go-archive/
 
 原站地址：https://shuangxiu-go.cn/
+
+## 更新记录
+
+### 2026-11-08 全量同步（内容抓取于 2026-11-07，提交 `6762a10`）
+
+- 源站 sitemap 1280 → 1369 条（新增 89、删除 0），lastmod 已到 2026-11-07；上一版基线 `d77166a`（2026-10-05）。
+- 企业详情页 578 → 620（新增 42 家），城市页 58 → 60（新增芜湖、石泉），新增功能页 `/experiences`；城市分页补到 68 个 HTML，搜索分页调整为 9 个。
+- 站点文件新增 51 个、删除 8 个；Next.js chunk 更新 4 个、下线 4 个；补回 `assets/og.png`，并把 86 个页面的 `og:image` / `twitter:image` 改成本地相对地址。
+- 站内链接统一改为相对路径（替代旧版的 `/shuangxiu-go-archive/` 绝对前缀），浏览器 hydration 后仍保持相对，可直接离线浏览。
+- 本地校验：断链 0、缺失资源 0、残留 `/_next/` 绝对地址 0、抓取失败 0；工作区与本地副本逐文件 SHA-256 一致。
+- 本地副本附 `manifest.json`（逐文件来源 URL、字节数、SHA-256）与 `更新对比.md`，保存在仓库外的备份目录，不入库。
+- 本次仅同步本仓库；主站 `shuangxiugou` 未改动，指南站 `shuangxiugou-guide` 核对后确认无更新。
